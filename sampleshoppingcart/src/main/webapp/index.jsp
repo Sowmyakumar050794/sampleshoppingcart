@@ -166,10 +166,18 @@ ul.topnav li a.dropbtn {
 
 				<img src="product1.jpg"/><img src="product2.jpg"/>
 
-
-
+<!-- <a href="view.jsp?page=1">VIEW ALL PRODUCTS</a>
+ -->
 	</ul>
 
 	</div>
+	<footer>
+		<div class="pagination">
+			<a href="#">&laquo;</a> <a href="./1?category=pen" class="active">1</a> <a
+				href="./2?category=pen">2</a> <a href="./3?category=pen">3</a> 
+				<a href="#">&raquo;</a> <br>
+			
+		</div>
+	</footer>
 </body>
 </html>
